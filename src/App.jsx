@@ -331,7 +331,7 @@ const BirthdayWebsite = () => {
                   className={`poppins px-8 py-3 md:px-10 md:py-4 rounded-2xl font-medium transition-all duration-300 ${
                     currentPage === 0 
                       ? 'bg-gray-200 text-gray-400 cursor-not-allowed' 
-                      : 'bg-gradient-to-r from-pink-500 to-purple-500 text-white hover:scale-105 shadow-lg'
+                      : 'bg-gradient-to-r from-pink-500 to-purple-500 text-white hover:scale-105 shadow-lg cursor-pointer'
                   }`}
                 >
                   ← Previous Page
@@ -343,7 +343,7 @@ const BirthdayWebsite = () => {
                   className={`poppins px-8 py-3 md:px-10 md:py-4 rounded-2xl font-medium transition-all duration-300 ${
                     currentPage === wishes.length - 1
                       ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                      : 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:scale-105 shadow-lg'
+                      : 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:scale-105 shadow-lg cursor-pointer'
                   }`}
                 >
                   Next Page →
